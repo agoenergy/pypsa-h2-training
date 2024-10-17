@@ -13,6 +13,10 @@ conda env create -f environment.yaml
 ## Step 2: Installing solver 
 
 ### Windows
+To installed solver in windows machine requires a bit indirect approach. Here we will put the solver file directly in our environment. 
+
+To do this, please downlaod the `cbc.exe` and `clp.exe` file from here. Then you need copy this file into your conda environment. Specifically, you need to copy these file in `C:\Users\<YOUR USER NAME>\anaconda3\envs\pypsa-agora-h2\Library\bin`. This is the defualt location of the anaconda environment. Incase, you created your anaconda environment at some other location, you would have to copy it there. 
+
 ### Mac
 
 <!-- ```
