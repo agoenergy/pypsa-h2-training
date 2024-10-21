@@ -8,4 +8,3 @@ dependencies:
   - ipykernel==6.25.0
   - numpy
   - pandas==2.1 # >=1.4.3
-  - coincbc
