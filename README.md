@@ -9,7 +9,7 @@
 To create the environment, navigate to the folder `pypsa-agora-h2-training` in your terminal and run the following command:
 
 ```
-conda env create -f environment.yaml
+conda env create -f env-local.yaml
 ```
 
 ## Step 2: Installing solver 
@@ -44,4 +44,6 @@ Activate the `pypsa-agora-h2` environment with `conda activate pypsa-agora-h2` a
 conda install conda-forge::coincbc
 ```
 
+> [!Note]
+> If the environment installation doesn't work for you, you can use run the excercise online using [Binder](https://mybinder.org/) available [here](https://mybinder.org/v2/gh/agoenergy/pypsa-agora-h2-training/HEAD).
 # 📚 Resources
