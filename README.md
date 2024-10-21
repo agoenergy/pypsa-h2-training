@@ -1,6 +1,8 @@
-# pypsa-agora-h2-training
+# PyPSA-Agora Hydrogen Training 
 
-# Installation
+🎯 Welcome to the training repository for simple hydrogen model using PyPSA. 
+
+# 🏗️ Installation
 
 ## Step 1: Setting up the environment
 
@@ -42,4 +44,4 @@ Activate the `pypsa-agora-h2` environment with `conda activate pypsa-agora-h2` a
 conda install conda-forge::coincbc
 ```
 
-# Resources
+# 📚 Resources
