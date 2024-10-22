@@ -46,6 +46,7 @@ conda install conda-forge::coincbc
 
 # 📚 Resources
 
+- [Training Material incl. slides and datasets](https://cloud.sefep.eu/s/5tKc4Ddkm7sDNQQ?path=%2F)
 - [PyPSA documentation](https://pypsa.readthedocs.io/en/latest/)
 - [EU map of hydrogen production](https://www.agora-industry.org/data-tools/agoras-eu-map-of-hydrogen-production-costs)
 - [9 Insights on Hydrogen - Souteast Asia Edition](https://www.agora-energiewende.org/publications/9-insights-on-hydrogen-southeast-asia-edition)
