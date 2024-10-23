@@ -13,7 +13,7 @@
                     xlink:title="Bus: electricity&#10;Carrier: electricity&#10;Unit: &#10;Generators: 0&#10;Loads: 1&#10;Stores: 0&#10;Storage units: 0&#10;Incoming links: 1&#10;Outgoing links: 0&#10;Lines: 0&#10;&#10;Power time series: [0.00, 0.00, 0.00, 0.00, 0.00, ...] ">
                     <polygon fill="none" stroke="none" stroke-width="7.3"
                         points="237.6,-181 0,-181 0,-159.4 237.6,-159.4 237.6,-181" />
-                    <polyline fill="none" stroke="white" stroke-width="7.3" points="0,-159.4 237.6,-159.4" />
+                    <polyline fill="none" stroke="gray" stroke-width="7.3" points="0,-159.4 237.6,-159.4" />
                     <text text-anchor="start" x="80" y="-167.47" font-family="Courier New" font-size="12.00"
                         font-weight="bold" fill="salmon">electricity</text>
                 </a>
@@ -24,7 +24,7 @@
             <title>electricity_load (load)</title>
             <g id="a_node5"><a
                     xlink:title="Load: electricity_load&#10;Bus: electricity&#10;Carrier: &#10;Power set: 100.00 ">
-                    <polygon fill="none" stroke="white" stroke-width="2"
+                    <polygon fill="none" stroke="gray" stroke-width="2"
                         points="118.8,0 208.72,-64.8 28.88,-64.8 118.8,0" />
                     <text text-anchor="start" x="63" y="-47" font-family="Courier New" font-size="12.00"
                         font-weight="bold" fill="salmon">electricity_load</text>
@@ -34,7 +34,7 @@
         <!-- electricity (bus)&#45;&gt;electricity_load (load) -->
         <g id="edge2" class="edge">
             <title>electricity (bus)&#45;&gt;electricity_load (load)</title>
-            <path fill="none" stroke="white" stroke-width="1.5"
+            <path fill="none" stroke="gray" stroke-width="1.5"
                 d="M118.8,-158.97C118.8,-138.56 118.8,-92.42 118.8,-65.27" />
         </g>
         <!-- gas_hub (bus) -->
@@ -44,7 +44,7 @@
                     xlink:title="Bus: gas_hub&#10;Carrier: gas&#10;Unit: &#10;Generators: 1&#10;Loads: 0&#10;Stores: 0&#10;Storage units: 0&#10;Incoming links: 0&#10;Outgoing links: 2&#10;Lines: 0&#10;&#10;Power time series: [0.00, 0.00, 0.00, 0.00, 0.00, ...] ">
                     <polygon fill="none" stroke="none" stroke-width="7.3"
                         points="391.6,-369.7 154,-369.7 154,-348.1 391.6,-348.1 391.6,-369.7" />
-                    <polyline fill="none" stroke="white" stroke-width="7.3" points="154,-348.1 391.6,-348.1" />
+                    <polyline fill="none" stroke="gray" stroke-width="7.3" points="154,-348.1 391.6,-348.1" />
                     <text text-anchor="start" x="248" y="-356.18" font-family="Courier New" font-size="12.00"
                         font-weight="bold" fill="salmon">gas_hub</text>
                 </a>
@@ -55,7 +55,7 @@
             <title>gas_power_plant (multi&#45;link)</title>
             <g id="a_node7"><a
                     xlink:title="Multi&#45;link: gas_power_plant&#10;From: gas_hub (bus0)&#10;To: electricity (bus1)&#10;To: co2_atmosphere (bus2)&#10;Carrier: gas&#10;Extendable nominal energy: True&#10;Nominal power: 0.00 MW&#10;Capital cost: 53817.07 currency/MW&#10;Marginal cost: 2.59 currency/MWh&#10;&#10;Optimised nominal power: 175.44 MW&#10;Power time series (p0): [175.44, 175.44, 175.44, 175.44, 175.44, ...] MW">
-                    <ellipse fill="black" stroke="white" cx="272.8" cy="-264.55" rx="1.8" ry="1.8" />
+                    <ellipse fill="black" stroke="gray" cx="272.8" cy="-264.55" rx="1.8" ry="1.8" />
                 </a>
             </g>
         </g>
@@ -64,7 +64,7 @@
             <title>gas_hub (bus)&#45;&gt;gas_power_plant (multi&#45;link)</title>
             <g id="a_edge4"><a
                     xlink:title="Multi&#45;link: gas_power_plant&#10;From: gas_hub (bus0)&#10;To: electricity (bus1)&#10;To: co2_atmosphere (bus2)&#10;Carrier: gas&#10;Extendable nominal power: True&#10;Nominal power: 0.00 MW&#10;Capital cost: 53817.07 currency/MW&#10;Marginal cost: 2.59 currency/MWh&#10;&#10;Optimised nominal power: 175.44 MW&#10;Power time series (p0): [175.44, 175.44, 175.44, 175.44, 175.44, ...] MW">
-                    <path fill="none" stroke="white" stroke-width="1.5"
+                    <path fill="none" stroke="gray" stroke-width="1.5"
                         d="M272.8,-347.66C272.8,-325.5 272.8,-274.42 272.8,-266.57" />
                 </a>
             </g>
@@ -78,7 +78,7 @@
                     xlink:title="Bus: co2_atmosphere&#10;Carrier: co2&#10;Unit: &#10;Generators: 0&#10;Loads: 0&#10;Stores: 1&#10;Storage units: 0&#10;Incoming links: 1&#10;Outgoing links: 0&#10;Lines: 0&#10;&#10;Power time series: [0.00, 0.00, 0.00, 0.00, 0.00, ...] ">
                     <polygon fill="none" stroke="none" stroke-width="7.3"
                         points="547.6,-181 310,-181 310,-159.4 547.6,-159.4 547.6,-181" />
-                    <polyline fill="none" stroke="white" stroke-width="7.3" points="310,-159.4 547.6,-159.4" />
+                    <polyline fill="none" stroke="gray" stroke-width="7.3" points="310,-159.4 547.6,-159.4" />
                     <text text-anchor="start" x="375" y="-167.47" font-family="Courier New" font-size="12.00"
                         font-weight="bold" fill="salmon">co2_atmosphere</text>
                 </a>
@@ -89,7 +89,7 @@
             <title>co2_atmosphere_storage (store)</title>
             <g id="a_node6"><a
                     xlink:title="Store: co2_atmosphere_storage&#10;Bus: co2_atmosphere&#10;Carrier: co2&#10;Extendable nominal energy: True&#10;Nominal energy: 0.00 h&#10;Power set: 0.00 &#10;Cyclic energy: False&#10;Capital cost: 0.00 currency/&#10;Marginal cost: 0.00 currency/h&#10;&#10;Optimised nominal energy: 307368.42 h&#10;Energy time series: [35.09, 70.18, 105.26, 140.35, 175.44, ...] h&#10;Power time series: [&#45;35.09, &#45;35.09, &#45;35.09, &#45;35.09, &#45;35.09, ...] ">
-                    <polygon fill="none" stroke="white" stroke-width="2"
+                    <polygon fill="none" stroke="gray" stroke-width="2"
                         points="486.3,-61.2 371.3,-61.2 371.3,-25.2 486.3,-25.2 486.3,-61.2" />
                     <text text-anchor="start" x="350" y="-10" font-family="Courier New" font-size="12.00"
                         font-weight="bold" fill="salmon">co2_atmosphere_storage</text>
@@ -99,11 +99,11 @@
         <!-- co2_atmosphere (bus)&#45;&gt;co2_atmosphere_storage (store) -->
         <g id="edge3" class="edge">
             <title>co2_atmosphere (bus)&#45;&gt;co2_atmosphere_storage (store)</title>
-            <path fill="none" stroke="white" stroke-width="1.5"
+            <path fill="none" stroke="gray" stroke-width="1.5"
                 d="M428.8,-146.08C428.8,-125.95 428.8,-96.63 428.8,-74.6" />
-            <polygon fill="black" stroke="white" stroke-width="1.5"
+            <polygon fill="black" stroke="gray" stroke-width="1.5"
                 points="428.8,-157.14 423.4,-145.14 428.55,-152.97 428.55,-145.14 428.8,-145.14 429.05,-145.14 429.05,-152.97 434.2,-145.14 428.8,-157.14" />
-            <polygon fill="black" stroke="white" stroke-width="1.5"
+            <polygon fill="black" stroke="gray" stroke-width="1.5"
                 points="428.8,-63.5 434.2,-75.5 429.05,-67.67 429.05,-75.5 428.8,-75.5 428.55,-75.5 428.55,-67.67 423.4,-75.5 428.8,-63.5" />
         </g>
         <!-- gas_supply (generator) -->
@@ -111,7 +111,7 @@
             <title>gas_supply (generator)</title>
             <g id="a_node4"><a
                     xlink:title="Generator: gas_supply&#10;Bus: gas_hub&#10;Carrier: gas&#10;Extendable nominal power: True&#10;Nominal power: 0.00 &#10;Power set: 0.00 &#10;Efficiency: 1.00&#10;Capital cost: 0.00 currency/&#10;Marginal cost: 24.57 currency/h&#10;&#10;Optimised nominal power: 175.44 &#10;Power time series: [175.44, 175.44, 175.44, 175.44, 175.44, ...] ">
-                    <ellipse fill="none" stroke="white" stroke-width="2" cx="272.8" cy="-482.3" rx="39.6" ry="39.6" />
+                    <ellipse fill="none" stroke="gray" stroke-width="2" cx="272.8" cy="-482.3" rx="39.6" ry="39.6" />
                     <text text-anchor="start" x="236" y="-479.58" font-family="Courier New" font-size="12.00"
                         font-weight="bold" fill="salmon">gas_supply</text>
                 </a>
@@ -120,7 +120,7 @@
         <!-- gas_supply (generator)&#45;&gt;gas_hub (bus) -->
         <g id="edge1" class="edge">
             <title>gas_supply (generator)&#45;&gt;gas_hub (bus)</title>
-            <path fill="none" stroke="white" stroke-width="1.5"
+            <path fill="none" stroke="gray" stroke-width="1.5"
                 d="M272.8,-442.22C272.8,-416.85 272.8,-385.69 272.8,-369.98" />
         </g>
         <!-- gas_power_plant (multi&#45;link)&#45;&gt;electricity (bus) -->
@@ -128,9 +128,9 @@
             <title>gas_power_plant (multi&#45;link)&#45;&gt;electricity (bus)</title>
             <g id="a_edge5"><a
                     xlink:title="Multi&#45;link: gas_power_plant&#10;From: gas_hub (bus0)&#10;To: electricity (bus1)&#10;Carrier: gas&#10;Extendable nominal power: True&#10;Nominal power: 0.00 MW&#10;Efficiency: 0.57&#10;Capital cost: 53817.07 currency/MW&#10;Marginal cost: 2.59 currency/MWh&#10;&#10;Optimised nominal power: 175.44 MW&#10;Power time series (p0): [175.44, 175.44, 175.44, 175.44, 175.44, ...] MW&#10;Power time series (p1): [&#45;100.00, &#45;100.00, &#45;100.00, &#45;100.00, &#45;100.00, ...] MW">
-                    <path fill="none" stroke="white" stroke-width="1.5"
+                    <path fill="none" stroke="gray" stroke-width="1.5"
                         d="M271.47,-262.75C260.77,-256.33 188.09,-212.75 146.99,-188.11" />
-                    <polygon fill="black" stroke="white" stroke-width="1.5"
+                    <polygon fill="black" stroke="gray" stroke-width="1.5"
                         points="137.4,-182.35 150.47,-183.89 141.11,-184.29 147.82,-188.31 147.69,-188.53 147.56,-188.74 140.85,-184.71 144.91,-193.16 137.4,-182.35" />
                 </a>
             </g>
@@ -142,9 +142,9 @@
             <title>gas_power_plant (multi&#45;link)&#45;&gt;co2_atmosphere (bus)</title>
             <g id="a_edge6"><a
                     xlink:title="Multi&#45;link: gas_power_plant&#10;From: gas_hub (bus0)&#10;To: co2_atmosphere (bus2)&#10;Carrier: gas&#10;Extendable nominal power: True&#10;Nominal power: 0.00 MW&#10;Efficiency: 0.20&#10;Capital cost: 53817.07 currency/MW&#10;Marginal cost: 2.59 currency/MWh&#10;&#10;Optimised nominal power: 175.44 MW&#10;Power time series (p0): [175.44, 175.44, 175.44, 175.44, 175.44, ...] MW&#10;Power time series (p2): [&#45;35.09, &#45;35.09, &#45;35.09, &#45;35.09, &#45;35.09, ...] MW">
-                    <path fill="none" stroke="white" stroke-width="1.5"
+                    <path fill="none" stroke="gray" stroke-width="1.5"
                         d="M274.15,-262.75C284.99,-256.33 358.61,-212.75 400.24,-188.11" />
-                    <polygon fill="black" stroke="white" stroke-width="1.5"
+                    <polygon fill="black" stroke="gray" stroke-width="1.5"
                         points="409.97,-182.34 402.4,-193.1 406.51,-184.69 399.78,-188.67 399.65,-188.46 399.52,-188.24 406.26,-184.26 396.9,-183.81 409.97,-182.34" />
                 </a>
             </g>
