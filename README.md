@@ -6,7 +6,7 @@
 
 ## Step 1: Setting up the environment
 
-To create the environment, navigate to the folder `pypsa-agora-h2-training` in your terminal and run the following command:
+To create the environment, navigate to the folder `pypsa-agora-h2-training` in your terminal (for windows find `Anaconda Prompt`, for linux and mac you can use the normal `terminal`) and run the following command:
 
 ```
 conda env create -f env-local.yaml
