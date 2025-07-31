@@ -1,5 +1,5 @@
 # used for creating binder environment 
-name: pypsa-agora-h2
+name: pypsa-h2-training
 channels:
   - conda-forge
 dependencies:
