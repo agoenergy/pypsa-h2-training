@@ -2,11 +2,11 @@ name: pypsa-h2-training
 channels:
   - conda-forge
 dependencies:
-  - ipython
+  - ipython==9.7.0
   - ipykernel==6.25.0
   - nbstripout==0.7.1
-  - numpy
-  - pandas==2.1
-  - pypsa==0.28
-  - python >=3.11,<3.12.0a0
+  - numpy==1.26.4
+  - pandas==2.3.1
+  - pypsa==0.35.2
+  - python==3.12.11
   - jupyterlab
