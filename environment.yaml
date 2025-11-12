@@ -1,12 +1,15 @@
 # used for creating binder environment 
 name: pypsa-h2-training
 channels:
+  - bioconda
   - conda-forge
 dependencies:
-  - python==3.12.11
-  - pypsa==0.35.2
-  - ipython==9.7.0
+  - git
   - ipykernel==6.25.0
+  - ipython==9.4.0
+  - jupyterlab==4.4.5
+  - nbstripout==0.8.1
   - numpy==1.26.4
   - pandas==2.3.1
-  - coincbc==2.10.12
+  - pypsa==0.35.1
+  - python==3.12.11
