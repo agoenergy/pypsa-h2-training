@@ -2,3 +2,4 @@
 *.exe
 cbc/
 cbc.exe.dll
+.history
