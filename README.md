@@ -30,7 +30,7 @@ Start by installing [Miniconda](https://docs.conda.io/en/latest/miniconda.html),
 The required Python packages for the exercises are listed in the `environment.yaml` file (which is called `pypsa-h2-training`) using the following commands in your terminal (for windows find `Anaconda Prompt`, for linux and mac you can use the normal `terminal`):
 
 ```shell title="Installing and activating the virtual environment"
-conda env create -f environment.yaml
+conda env create -f environment.yml
 conda activate pypsa-h2-training
 ```
 
