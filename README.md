@@ -40,6 +40,9 @@ The exercises in this repo is passed to an external solver to perform total annu
 
 **By default of the latest PyPSA version already installed some common open-source solvers like Cbc or HiGHs.** Therefore, after you activate the environment in this repository, you don't need to installed HiGHs or cbc solver manually. We use [HiGHs](https://ergo-code.github.io/HiGHS/dev/interfaces/python/) as the default solver of this repository and all exercises in the repository can be solved via this solver.
 
+> [!Note]
+> If the environment installation doesn't work for you, you can use run the excercise online using [Binder](https://mybinder.org/) available [here](https://mybinder.org/v2/gh/agoenergy/pypsa-agora-h2-training/HEAD).
+
 ## Solver testing
 
 After all the aboved installation steps are completed, you can try to run some testings to make sure that you get all packages installed correctly:
